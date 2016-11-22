@@ -1,0 +1,36 @@
+{
+	"facets": [
+		{
+			"id": "CAT",
+			"name": "Categories",
+			"cssClass": "CAT-filter",
+			"subItemsFacet": "categories",
+			"collapsed": false,
+			"scrollable": true,
+			"subItems": []
+		},
+		{
+			"id": "KW",
+			"name": "Keywords",
+			"cssClass": "KW-filter",
+			"subItemsFacet": "keywords",
+			"collapsed": true,
+			"scrollable": true,
+			"subItems": []
+		}
+	],
+	"dateRange": {
+		"title": "Published between:",
+		"field": "publishDate",
+		"format": {
+			"year": "not empty!",
+			"month": "not empty!",
+			"day": "not empty!"
+		}
+	},
+	"graph": {
+		"nodes": {
+			"maxNumber": 30
+		}
+	}
+}
