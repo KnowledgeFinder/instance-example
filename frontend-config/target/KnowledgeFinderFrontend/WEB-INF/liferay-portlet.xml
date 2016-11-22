@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--
+    Copyright 2016 DLR - German Aerospace Center
+   
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+   
+    http://www.apache.org/licenses/LICENSE-2.0
+   
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>knowledgefinder-portlet</portlet-name>
+		<icon>/static/img/icon.png</icon>
+
+		<!-- CSS -->
+		<header-portlet-css>/static/css/lib/jquery/smoothness/jquery-ui.min.css</header-portlet-css>
+		<header-portlet-css>/static/css/lib/scroll/jquery.mCustomScrollbar.css</header-portlet-css>
+		<header-portlet-css>/static/css/knowledgefinder.css</header-portlet-css>
+
+		<!-- JS HEADER -->
+		<!-- <header-portlet-javascript>/static/js/addEventListener.js</header-portlet-javascript> -->
+		<header-portlet-javascript>/static/js/compatible.js</header-portlet-javascript>
+		
+		<header-portlet-javascript>/static/js/lib/d3/d3.v3.js</header-portlet-javascript>
+		<header-portlet-javascript>/static/js/lib/queue/queue.min.js</header-portlet-javascript>
+		
+		<header-portlet-javascript>/static/js/lib/jquery/jquery.js</header-portlet-javascript>
+		<header-portlet-javascript>/static/js/lib/jquery/jquery-ui.js</header-portlet-javascript>
+		
+		<header-portlet-javascript>/static/js/lib/scroll/minified/jquery.mousewheel.min.js</header-portlet-javascript>
+		<header-portlet-javascript>/static/js/lib/scroll/uncompressed/jquery.mCustomScrollbar.js</header-portlet-javascript>
+		<header-portlet-javascript>/static/js/lib/bootstrap/bootstrap.min.js</header-portlet-javascript>
+	
+		<header-portlet-javascript>/static/js/lib/url/URI.js</header-portlet-javascript>
+		<header-portlet-javascript>/static/js/lib/history/html5/native.history.js</header-portlet-javascript>
+		
+		<!-- JS FOOTER -->
+		<footer-portlet-javascript>/static/js/utils.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/QueryUrl.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Panel.Graph.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Panel.Filter.Factes.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Panel.Filter.Range.Date.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Panel.Result.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Detail.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.Panel.Selection.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/static/js/View.App.js</footer-portlet-javascript>
+		
+		<footer-portlet-javascript>/static/js/main.js</footer-portlet-javascript>
+	</portlet>
+	
+	
+	
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>

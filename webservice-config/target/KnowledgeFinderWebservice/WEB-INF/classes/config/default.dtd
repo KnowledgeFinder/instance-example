@@ -1,0 +1,5 @@
+<!ELEMENT default (fields*)>
+<!ELEMENT fields (field+)>
+<!ELEMENT field (name,value)>
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT value (#PCDATA)>

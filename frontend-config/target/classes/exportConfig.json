@@ -1,0 +1,14 @@
+{
+	"bibtex": {
+		"fields": [
+			"authors",
+			"id",
+			"title",
+			"externalLink",
+			"keywords",
+			"publisher",
+			"description",
+			"publishDate"
+		]
+	}
+}
