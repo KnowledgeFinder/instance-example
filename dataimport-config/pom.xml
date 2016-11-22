@@ -28,7 +28,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>../../knowledgefinder-dataimport/dataimport.config</module>
+		<module>../../knowledgefinder-dataimport/solr-configuration</module>
 	</modules>
 
 	<build>
