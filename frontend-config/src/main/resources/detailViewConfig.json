@@ -1,0 +1,80 @@
+{
+  "title": {
+    "field": "title",
+    "highlight": true
+  },
+  "id": {
+    "field": "id",
+    "highlight": false
+  },
+  "body": [
+  	[
+  	{
+        "field": "authors",
+        "title": "Authors",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+      },
+      {
+        "field": "description",
+        "title": "Description",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+      },
+      {
+        "field": "publisher",
+        "title": "Publisher",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+      },
+      {
+        "field": "publishDate",
+        "title": "Publish Date",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false,
+        "type": "date" 
+      },
+      {
+        "field": "categories",
+        "title": "Categories",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+      },
+      {
+        "field": "keywords",
+        "title": "Keywords",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+      }
+  	],
+    [
+      {
+        "field": "license",
+        "title": "License",
+        "tooltip": "",
+        "highlight": false,
+        "hideIfNotSet": false
+      },
+      {
+        "field": "externalLink",
+        "title": "Detailed Information",
+        "tooltip": "Link to the original source.",
+        "highlight": false,
+        "hideIfNotSet": false
+      },
+    {
+    	"field": "comment",
+        "title": "Comment",
+        "tooltip": "",
+        "highlight": true,
+        "hideIfNotSet": false
+    }
+    ]
+  ]
+}
