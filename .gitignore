@@ -1,0 +1,7 @@
+﻿.project
+dataimport-config/example/conf/default_conf/
+dataimport-config/example/conf/_rest_managed.json
+dataimport-config/example/conf/dataimport.properties
+dataimport-config/example/data/
+dataimport-config/example/lib/
+*/target/
