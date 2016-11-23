@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT bibtex (types,tags)>
-<!ELEMENT types (type)*>
-<!ELEMENT tags (tag)*>
-<!ELEMENT type (name,value)>
-<!ELEMENT tag (name,value)>
-<!ELEMENT name (#PCDATA)> 
-<!ELEMENT value (#PCDATA)>
