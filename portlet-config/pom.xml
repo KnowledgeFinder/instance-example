@@ -25,7 +25,7 @@
 		<relativePath>../../knowledgefinder-webapp/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>frontend.example</artifactId>
+	<artifactId>portlet.example</artifactId>
 	<packaging>war</packaging>
 	<name>KnowledgeFinderII Portlet Example</name>
 
