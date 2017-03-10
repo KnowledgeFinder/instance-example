@@ -25,7 +25,7 @@
 		<relativePath>../../knowledgefinder-webapp/pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>frontend.example</artifactId>
+	<artifactId>portlet.example</artifactId>
 	<packaging>war</packaging>
 	<name>KnowledgeFinderII Portlet Example</name>
 
@@ -35,11 +35,11 @@
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
-                      <finalName>KnowledgeFinderFrontend</finalName> 
+                      <finalName>KnowledgeFinderPortlet</finalName> 
                       <overlays>
 						<overlay>
 							<groupId>de.dlr.knowledgefinderII.webapp</groupId>
-							<artifactId>frontend</artifactId>
+							<artifactId>portlet</artifactId>
 						</overlay>
 					</overlays>                
                  </configuration>
@@ -53,7 +53,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>de.dlr.knowledgefinderII.webapp</groupId>
-			<artifactId>frontend</artifactId>
+			<artifactId>portlet</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<type>war</type>
 			<scope>runtime</scope>
