@@ -18,27 +18,31 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
 	<parent>
-		<groupId>de.dlr.knowledgefinderII</groupId>
+		<groupId>de.dlr.knowledgefinder</groupId>
 		<artifactId>webapp</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>2.0.0</version>
 		<relativePath>../../knowledgefinder-webapp/pom.xml</relativePath>
 	</parent>
-	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>de.dlr.knowledgefinder.webapp</groupId>
 	<artifactId>webservice.example</artifactId>
 	<packaging>war</packaging>
-	<name>KnowledgeFinderII Webservice Example</name>
+	<version>2.0.0</version>
+	<name>KnowledgeFinder Webservice Example</name>
 
 	<build>
-		<finalName>KnowledgeFinderWebservice</finalName>
+		<finalName>KnowledgeFinderWebservice-portlet</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<configuration>
-					<finalName>KnowledgeFinderWebservice</finalName>
+					<finalName>KnowledgeFinderWebservice-portlet</finalName>
 					<overlays>
 						<overlay>
-							<groupId>de.dlr.knowledgefinderII.webapp</groupId>
+							<groupId>de.dlr.knowledgefinder.webapp</groupId>
 							<artifactId>webservice</artifactId>
 						</overlay>
 					</overlays>
@@ -52,9 +56,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>de.dlr.knowledgefinderII.webapp</groupId>
+			<groupId>de.dlr.knowledgefinder.webapp</groupId>
 			<artifactId>webservice</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>2.0.0</version>
 			<type>war</type>
 			<scope>runtime</scope>
 		</dependency>
